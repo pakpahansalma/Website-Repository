@@ -1,4 +1,4 @@
-import { type ReactNode, useEffect, useRef, useState } from "react";
+import { Link, useLocation } from "wouter";
 import {
   ArrowDownRight,
   ArrowLeft,
@@ -15,23 +15,24 @@ import {
   MousePointer2,
   X,
 } from "lucide-react";
-import { Link, useLocation } from "wouter";
-import profilePhoto from "@assets/profile-photo-new.jpg.png";
-import customerDynamicsImage from "@assets/project-01-customer-dynamics-01.png.jpg";
-import carSalesImage from "@assets/project-02-car-sales-01.png.png";
-import carSalesDetailImage from "@assets/project-02-car-sales-02.png.png";
-import ordersImage from "@assets/project-03-orders-report-01.png.png";
-import coffeeImage from "@assets/project-04-coffee-sales-01.png.png";
-import productivityImage from "@assets/project-05-worker-productivity-01.png.png";
-import bnspLogo from "@assets/bnsp.png";
-import revouLogo from "@assets/revou.png";
-import myskillLogo from "@assets/myskill.webp";
-import cakapLogo from "@assets/cakap.png";
-import cakapCertificate1 from "@assets/cakap-datascientist1.jpg";
-import cakapCertificate2 from "@assets/cakap-datascientist2.jpg";
-import myskillDataAnalysisCertificate from "@assets/myskill-data-analysis.jpg";
-import myskillExcelCertificate from "@assets/myskill-excel.jpg";
-import myskillSqlCertificate from "@assets/myskill-sql.jpg";
+const profilePhoto = "/profile-photo-new.jpg.png";
+const customerDynamicsImage = "/project-01-customer-dynamics-01.png.jpg";
+const carSalesImage = "/project-02-car-sales-01.png.png";
+const carSalesDetailImage = "/project-02-car-sales-02.png.png";
+const ordersImage = "/project-03-orders-report-01.png.png";
+const coffeeImage = "/project-04-coffee-sales-01.png.png";
+const productivityImage = "/project-05-worker-productivity-01.png.png";
+
+const bnspLogo = "/bnsp.png";
+const revouLogo = "/revou.png";
+const myskillLogo = "/myskill.webp";
+const cakapLogo = "/cakap.png";
+
+const cakapCertificate1 = "/cakap-datascientist1.jpg";
+const cakapCertificate2 = "/cakap-datascientist2.jpg";
+const myskillDataAnalysisCertificate = "/myskill-data-analysis.jpg";
+const myskillExcelCertificate = "/myskill-excel.jpg";
+const myskillSqlCertificate = "/myskill-sql.jpg";
 
 type Project = {
   index: string;
@@ -629,7 +630,6 @@ function HomePage() {
   return (
     <main className="portfolio-page">
       <SiteHeader activeSection={activeSection} />
-      ```tsx
       <section aria-labelledby="hero-title" className="hero" id="top">
         <div className="report-shell hero-grid">
           <Reveal className="hero-content">
