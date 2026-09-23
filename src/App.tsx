@@ -629,7 +629,6 @@ function HomePage() {
   return (
     <main className="portfolio-page">
       <SiteHeader activeSection={activeSection} />
-      ```tsx
       <section aria-labelledby="hero-title" className="hero" id="top">
         <div className="report-shell hero-grid">
           <Reveal className="hero-content">
