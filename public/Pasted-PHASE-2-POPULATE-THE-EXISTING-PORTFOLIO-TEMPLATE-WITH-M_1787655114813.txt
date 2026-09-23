@@ -1,0 +1,773 @@
+PHASE 2 — POPULATE THE EXISTING PORTFOLIO TEMPLATE WITH MY ACTUAL CONTENT
+
+The portfolio website template has already been created and the visual design is already approved.
+
+IMPORTANT:
+This is a CONTENT IMPLEMENTATION phase, NOT a redesign phase.
+
+DO NOT rebuild the website.
+
+DO NOT redesign the website.
+
+DO NOT change the existing visual direction.
+
+DO NOT change the existing:
+- Color palette
+- Typography
+- Font choices
+- Layout structure
+- Grid system
+- Spacing system
+- Navbar design
+- Hero design
+- Card design
+- Button design
+- Border radius
+- Animation style
+- Responsive behavior
+- Navigation structure
+- Overall visual hierarchy
+
+Preserve the existing template as much as possible.
+
+Your task is to replace the existing placeholders with the portfolio content below.
+
+==================================================
+1. GENERAL CONTENT RULES
+==================================================
+
+Use the information below as the source of truth.
+
+DO NOT invent:
+- Work experience
+- Companies
+- Dates
+- Certifications
+- Metrics
+- Business results
+- Revenue impact
+- Customer impact
+- Performance improvements
+- Responsibilities
+- Achievements
+- Project outcomes
+
+If information is not provided, keep an appropriate placeholder rather than inventing content.
+
+Do not use lorem ipsum.
+
+Do not create fake statistics.
+
+Do not exaggerate the business impact of the projects.
+
+The portfolio should communicate analytical thinking rather than unsupported business claims.
+
+IMPORTANT ANALYTICAL PRINCIPLE:
+
+Distinguish between:
+1. What the data shows
+2. What the finding may indicate
+3. What should be investigated further
+
+Do not automatically convert every finding into a business recommendation.
+
+The role presented through these projects is a DATA ANALYST / ANALYTICAL PROFESSIONAL.
+
+The portfolio should demonstrate the ability to:
+- Work with data
+- Clean and structure data
+- Analyze patterns
+- Build KPIs
+- Create dashboards
+- Translate data into insights
+- Interpret findings in a business context
+- Identify questions for further analysis
+
+==================================================
+2. PORTFOLIO POSITIONING
+==================================================
+
+The overall portfolio should communicate:
+
+"I turn data into structured analysis, identify meaningful patterns, and translate findings into business-relevant insights."
+
+Do not position the portfolio as a pure graphic design portfolio.
+
+Do not position it as a pure software engineering portfolio.
+
+Do not position it primarily as a machine learning portfolio.
+
+The primary identity is:
+
+DATA ANALYST
+
+The portfolio demonstrates supporting capabilities across:
+
+Business Intelligence
+Data Analysis
+Data Visualization
+SQL
+Python
+Predictive Analytics
+
+==================================================
+3. PROJECT HIERARCHY
+==================================================
+
+Create the following hierarchy within the existing project structure.
+
+FEATURED PROJECTS:
+
+1. Customer Dynamics Analysis & Dashboard
+2. Car Sales Performance Dashboard
+3. Worker Productivity Prediction
+
+ADDITIONAL PROJECTS:
+
+4. Orders & Regional Sales Report
+5. Coffee Shop Sales Analysis
+
+Do not redesign the project card system.
+
+Use the existing project card component.
+
+==================================================
+4. PROJECT 1
+CUSTOMER DYNAMICS ANALYSIS & DASHBOARD
+==================================================
+
+Context:
+
+Internship Project · Market Intelligence Analyst
+PT Bakrie Pipe Industries
+2026
+
+IMPORTANT DATA DISCLOSURE:
+
+The portfolio version uses dummy data with the same analytical structure to protect confidential company information.
+
+Do not imply that the portfolio statistics represent actual company performance.
+
+TITLE:
+
+Customer Dynamics Analysis & Dashboard
+
+TOOLS:
+
+Microsoft Excel
+Power Query
+Pivot Table
+Slicer
+
+SHORT DESCRIPTION:
+
+An Excel-based business intelligence project that transforms transaction data into customer-level insights to understand customer activity, retention, and dormant customer patterns.
+
+BUSINESS QUESTION:
+
+How can transaction data be transformed into customer-level insights to understand customer activity, retention, and dormant customer patterns?
+
+ANALYTICAL PROCESS:
+
+Raw Transaction Data
+→ Data Cleaning
+→ Data Validation
+→ Customer Master
+→ Customer KPI Analysis
+→ Dashboard
+
+KEY FINDINGS:
+
+47% — Retention
+
+47% of customers met the defined retention criteria during the observed period.
+
+30% — Dormant Customers
+
+30% of customers were classified as dormant based on the defined activity criteria.
+
+47% — One-Year Activity
+
+47% of customers were active for only one year during the observation period.
+
+BUSINESS INTERPRETATION:
+
+The analysis shows different patterns of customer continuity and activity within the observed customer base. A notable proportion of customers demonstrated limited activity across the observation period, while another segment remained inactive according to the defined criteria.
+
+FURTHER ANALYSIS:
+
+The observed patterns raise several questions that could be explored through deeper segmentation and behavioral analysis.
+
+Potential analytical questions include:
+
+- Are one-year customers concentrated within specific customer types?
+- Does customer activity differ by product or transaction category?
+- What characteristics distinguish retained and dormant customers?
+- Are dormant customers associated with specific purchasing patterns?
+- Is limited repeat activity consistent with the expected purchasing cycle of the customer or product?
+
+IMPORTANT:
+
+Do not state that customers are necessarily churning.
+
+Do not state that the company should immediately launch a loyalty program.
+
+Do not state that dormant customers should definitely be reactivated.
+
+Those conclusions require further evidence.
+
+==================================================
+5. PROJECT 2
+CAR SALES PERFORMANCE DASHBOARD
+==================================================
+
+Context:
+
+Independent Project
+2025
+
+TITLE:
+
+Car Sales Performance Dashboard
+
+TOOLS:
+
+Power BI
+DAX
+
+SHORT DESCRIPTION:
+
+An interactive Power BI dashboard analyzing sales performance, product segments, and regional patterns to support data-driven analysis.
+
+BUSINESS QUESTION:
+
+How do sales performance, product segments, and regional patterns contribute to overall car sales performance?
+
+ANALYTICAL PROCESS:
+
+Raw Sales Data
+→ Data Cleaning & Structuring
+→ KPI Development
+→ DAX Measures
+→ Interactive Dashboard
+→ Sales & Regional Analysis
+
+KEY METRICS:
+
+$371M
+YTD Sales
+
++23.6%
+YTD Sales Growth
+
++19.7%
+Unit Growth
+
+KEY FINDINGS:
+
+SUVs were the main revenue-driving segment.
+
+Top brands:
+Chevrolet
+Ford
+Dodge
+
+Top regions:
+Austin
+Janesville
+
+Opportunity identified:
+Aurora
+
+BUSINESS INTERPRETATION:
+
+Overall sales performance was supported by strong unit growth, with SUVs representing a major revenue-driving segment. Sales performance also varied across brands and regions.
+
+FURTHER ANALYSIS:
+
+- Is revenue growth primarily driven by unit volume or average selling price?
+- Why do certain regions outperform others?
+- Is SUV performance consistent across regions?
+- What characteristics distinguish high- and low-performing regions?
+- Does brand performance vary significantly by location?
+
+IMPORTANT:
+
+Do not claim that a specific business strategy was implemented.
+
+Do not claim revenue was increased because of this dashboard.
+
+Do not invent business outcomes.
+
+==================================================
+6. PROJECT 3
+ORDERS & REGIONAL SALES REPORT
+==================================================
+
+Context:
+
+Independent Project
+2025
+
+TITLE:
+
+Orders & Regional Sales Report
+
+TOOLS:
+
+Looker Studio
+Google Sheets
+
+SHORT DESCRIPTION:
+
+An interactive dashboard analyzing order distribution, sales performance, customer segments, categories, and regional patterns.
+
+BUSINESS QUESTION:
+
+How are orders and sales distributed across regions, categories, and customer segments?
+
+ANALYTICAL PROCESS:
+
+Raw Sales Dataset
+→ Cleaning & Structuring
+→ Google Sheets
+→ Dashboard Development
+→ Regional / Category / Segment Analysis
+
+KEY METRICS:
+
+9,994
+Orders
+
+793
+Customers
+
+49
+States
+
+51.9%
+Consumer Segment
+
+KEY FINDINGS:
+
+Top categories:
+Technology
+Office Supplies
+
+Top cities:
+New York City
+Los Angeles
+
+Customer mix:
+Consumer customers represented 51.9% of the customer mix.
+
+Trend:
+Consistent growth from 2014–2017, with Q4 as the peak period.
+
+BUSINESS INTERPRETATION:
+
+The analysis shows variation in sales activity across customer segments, categories, and geographic locations. Consumer customers represented the largest customer segment, while Technology and Office Supplies were among the leading categories.
+
+FURTHER ANALYSIS:
+
+- Does the largest customer segment also contribute the most revenue?
+- Which regions have high order volume but relatively low sales?
+- Are category preferences different across regions?
+- What factors contribute to the Q4 sales peak?
+- How does customer concentration vary geographically?
+
+==================================================
+7. PROJECT 4
+COFFEE SHOP SALES ANALYSIS
+==================================================
+
+Context:
+
+Training Project
+PT Cerdas Digital Nusantara
+
+TITLE:
+
+Coffee Shop Sales Analysis
+
+TOOLS:
+
+PostgreSQL
+SQL
+
+SHORT DESCRIPTION:
+
+A SQL-based sales analysis exploring transaction patterns, product performance, and revenue drivers.
+
+BUSINESS QUESTION:
+
+What sales patterns, products, and time periods contribute most to transaction activity and revenue?
+
+ANALYTICAL PROCESS:
+
+Raw Transaction Data
+→ Data Cleaning
+→ SQL Queries
+→ Aggregation
+→ Sales Pattern Analysis
+→ Business Interpretation
+
+KEY FINDINGS:
+
+Monday & Friday
+
+Recorded the highest transaction activity.
+
+Top Product:
+
+Sustainably Grown Organic Lg
+
+Revenue:
+$21K+
+
+Additional finding:
+
+Premium and branded products showed higher revenue contribution.
+
+BUSINESS INTERPRETATION:
+
+Transaction activity was concentrated on specific days, while revenue contribution varied across products. The analysis also highlighted differences in performance between product types.
+
+FURTHER ANALYSIS:
+
+- Does high transaction volume also correspond to high daily revenue?
+- What time of day drives peak transactions?
+- Are high-revenue products also high-volume products?
+- Does product performance vary by day?
+- Are premium products generating higher revenue because of price, volume, or both?
+
+IMPORTANT:
+
+Do not claim that staffing or inventory strategies were actually changed.
+
+Do not claim that revenue increased because of the analysis.
+
+Those are potential applications, not verified outcomes.
+
+==================================================
+8. PROJECT 5
+WORKER PRODUCTIVITY PREDICTION
+==================================================
+
+Context:
+
+Training Project
+PT Cerdas Digital Nusantara
+
+TITLE:
+
+Worker Productivity Prediction
+
+TOOLS:
+
+Python
+Machine Learning
+
+SHORT DESCRIPTION:
+
+A predictive modeling project comparing multiple machine learning algorithms to identify the most accurate approach for predicting worker productivity.
+
+BUSINESS QUESTION:
+
+Which machine learning approach provides the most accurate prediction of worker productivity?
+
+ANALYTICAL PROCESS:
+
+Raw Dataset
+→ Data Preparation
+→ Missing Value & Outlier Handling
+→ Feature Preparation
+→ Model Development
+→ Cross-Validation
+→ Hyperparameter Tuning
+→ Model Evaluation
+
+MODELS EVALUATED:
+
+Linear Regression
+KNN
+Decision Tree
+Random Forest
+SVM
+MLP
+
+KEY FINDING:
+
+Best-performing model:
+
+Random Forest
+
+RMSE:
+0.1035
+
+SMAPE:
+9.79%
+
+INTERPRETATION:
+
+Random Forest achieved the lowest RMSE and SMAPE among the evaluated models, indicating the strongest predictive performance on this dataset.
+
+BUSINESS / ANALYTICAL INTERPRETATION:
+
+The results suggest that the relationship between the available features and worker productivity is not fully captured by simpler linear assumptions. The stronger performance of Random Forest indicates that non-linear relationships may play an important role in the dataset.
+
+FURTHER ANALYSIS:
+
+- Which features contribute most to productivity predictions?
+- Are there specific operational factors associated with higher or lower productivity?
+- How stable is the model across different subsets of the data?
+- Would additional feature engineering improve predictive performance?
+- How would model predictions perform on unseen real-world data?
+
+IMPORTANT:
+
+Do not use the previous incorrect business impact text about sales timing, products, staffing, or inventory.
+
+That content belonged to the Coffee Shop SQL project and must NOT appear in this project.
+
+Do not claim that the predictive model was deployed.
+
+Do not claim that worker productivity actually improved.
+
+Do not claim operational impact that has not been measured.
+
+==================================================
+9. PROJECT CARD REQUIREMENTS
+==================================================
+
+For the main project cards, keep the existing card design.
+
+Each card should show only the most important information:
+
+- Project context
+- Project title
+- Tools
+- Short description
+- 1–3 key metrics or findings
+- View Case Study CTA
+
+Do NOT place the entire case study text inside the project card.
+
+The cards should remain concise and scannable.
+
+Use the existing visual hierarchy.
+
+==================================================
+10. CASE STUDY REQUIREMENTS
+==================================================
+
+Each project should have a detailed case study using the existing case study component/page/interaction.
+
+Use this structure:
+
+1. Context
+2. Business Question
+3. Data & Tools
+4. Analytical Process
+5. Key Findings
+6. Business Interpretation
+7. Further Analysis
+8. Visualization / Output
+
+Do not force a "Business Impact" section when there is no verified business impact.
+
+Use "Business Interpretation" or "Analytical Value" instead.
+
+For projects where appropriate, include:
+
+"Potential Business Application"
+
+But clearly distinguish potential application from verified outcome.
+
+==================================================
+11. EXPERIENCE / EDUCATION
+==================================================
+
+Do not invent any additional experience.
+
+Use the information currently available in the template.
+
+Known experience:
+
+Data Scientist
+PT Cerdas Digital Nusantara
+Sep 2024 – Dec 2024
+
+Do not automatically attach this employment information to every project.
+
+Projects 4 and 5 are training projects associated with PT Cerdas Digital Nusantara.
+
+Use "Training Project" unless the existing information or official documentation explicitly establishes another program name.
+
+Do NOT call it an "Apprenticeship" unless that terminology is explicitly supported by the official program documentation.
+
+Project 1 context:
+
+Market Intelligence Analyst Intern
+PT Bakrie Pipe Industries
+2026
+
+Use this context only for Project 1.
+
+==================================================
+12. BNSP / CERTIFICATION
+==================================================
+
+The user has completed a Data Analyst BNSP competency assessment and has been declared competent.
+
+The certificate or formal letter is still pending.
+
+Do NOT display a certificate number.
+
+Do NOT invent a certification date.
+
+Do NOT claim a certificate has already been issued.
+
+If the existing About / Certification section needs a placeholder, use:
+
+"BNSP Data Analyst Competency Assessment — Competent"
+"Certificate / formal documentation pending"
+
+Only include this if the template has an appropriate certification section.
+
+==================================================
+13. ABOUT ME POSITIONING
+==================================================
+
+Do not invent a personal biography.
+
+Keep existing placeholders for:
+
+[NAMA]
+[ABOUT ME]
+[EMAIL]
+[LINKEDIN]
+[GITHUB]
+
+The overall professional positioning should be consistent with:
+
+Data Analyst
+Data Analytics
+Business Intelligence
+Data Visualization
+SQL
+Python
+Dashboarding
+Business-focused analysis
+
+Do not describe the user as a senior analyst unless explicitly provided.
+
+==================================================
+14. VISUAL CONTENT
+==================================================
+
+At this stage, DO NOT generate fake project images.
+
+Do not use random stock images.
+
+Keep the existing project preview placeholders if actual images have not yet been provided.
+
+Use placeholders such as:
+
+[PROJECT 1 PREVIEW]
+[PROJECT 2 PREVIEW]
+[PROJECT 3 PREVIEW]
+[PROJECT 4 PREVIEW]
+[PROJECT 5 PREVIEW]
+
+We will provide the actual images in a later phase.
+
+Do not redesign cards simply because an image is currently missing.
+
+==================================================
+15. DESIGN PRESERVATION
+==================================================
+
+The existing approved visual direction must remain unchanged:
+
+- Clean
+- Modern
+- Professional
+- Editorial
+- Minimal
+- White and blue
+- Data-driven
+- Structured
+- Calm
+- Trustworthy
+- Generous whitespace
+
+Do not introduce:
+
+- Cyberpunk
+- Neon
+- Gaming aesthetics
+- Excessive gradients
+- Heavy glassmorphism
+- 3D elements
+- Excessive animations
+- Dark mode as the primary design
+- Decorative stock illustrations
+- Excessive icons
+
+==================================================
+16. RESPONSIVE & ACCESSIBILITY
+==================================================
+
+Preserve the existing responsive behavior.
+
+After implementing the content, verify:
+
+- No text overflow
+- No broken layout
+- No horizontal scrolling
+- Project cards remain readable
+- Case studies remain readable on mobile
+- Long project titles wrap correctly
+- Metrics remain visually balanced
+- Navigation still works
+- Buttons still work
+- Keyboard navigation remains functional
+- Focus states remain visible
+- Semantic heading hierarchy remains intact
+
+Do not change the design system to solve minor content issues.
+
+Instead, make only minimal content-level adjustments when necessary.
+
+==================================================
+17. FINAL QUALITY CHECK
+==================================================
+
+Before finishing:
+
+1. Confirm all five projects are present.
+2. Confirm the correct project is associated with the correct tool.
+3. Confirm Project 4 is SQL / Coffee Shop.
+4. Confirm Project 5 is Python / Worker Productivity.
+5. Confirm Project 5 does NOT contain the Coffee Shop business impact.
+6. Confirm Project 1 contains the dummy-data disclosure.
+7. Confirm Project 1 is associated with the 2026 Market Intelligence internship context.
+8. Confirm Projects 2 and 3 are independent projects from 2025.
+9. Confirm Projects 4 and 5 are training projects associated with PT Cerdas Digital Nusantara.
+10. Confirm no unsupported business outcomes were invented.
+11. Confirm numerical values remain exactly as provided.
+12. Confirm existing design has not been unnecessarily changed.
+13. Confirm the website remains responsive.
+
+IMPORTANT FINAL INSTRUCTION:
+
+Do not redesign the website.
+
+Do not rebuild the website.
+
+Do not change the existing design system.
+
+Only populate the existing template with the content provided above and make the minimum necessary content/layout adjustments required for readability.
+
+After implementation, report briefly what content was updated and identify any remaining placeholders that require user-provided information.

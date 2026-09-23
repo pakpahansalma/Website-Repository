@@ -1,0 +1,171 @@
+Connect the uploaded image assets to the existing portfolio template.
+
+IMPORTANT:
+This is an asset integration task only.
+
+DO NOT redesign the website.
+DO NOT rebuild the website.
+DO NOT change the existing colors, typography, spacing, layout, cards, navigation, animations, or responsive behavior.
+
+Use the existing image/preview components and replace the corresponding image placeholders.
+
+IMAGE MAPPING:
+
+1. PROFILE PHOTO
+
+File:
+profile-photo.jpg
+
+Use for:
+Existing hero profile photo placeholder.
+
+Alt text:
+"Professional profile photo"
+
+
+2. PROJECT 1 — CUSTOMER DYNAMICS
+
+File:
+project-01-customer-dynamics-01.png
+
+Use for:
+- Project 1 main preview
+- Project 1 case study visual
+
+Project:
+Customer Dynamics Analysis & Dashboard
+
+Alt text:
+"Customer Dynamics Analysis dashboard built with Microsoft Excel and Power Query"
+
+
+3. PROJECT 2 — CAR SALES
+
+Main image:
+project-02-car-sales-01.png
+
+Use for:
+- Project 2 main preview
+- Primary Project 2 case study visual
+
+Additional image:
+project-02-car-sales-02.png
+
+Use for:
+- Additional visual inside Project 2 case study only
+
+Project:
+Car Sales Performance Dashboard
+
+Alt text for first image:
+"Car Sales Performance dashboard built with Power BI"
+
+Alt text for second image:
+"Additional Car Sales Performance analysis view"
+
+IMPORTANT:
+Do not put both Project 2 images inside the main project card.
+The second image should only appear in the case study.
+
+
+4. PROJECT 3 — ORDERS REPORT
+
+File:
+project-03-orders-report-01.png
+
+Use for:
+- Project 3 main preview
+- Project 3 case study visual
+
+Project:
+Orders & Regional Sales Report
+
+Alt text:
+"Orders and Regional Sales dashboard built with Looker Studio"
+
+
+5. PROJECT 4 — COFFEE SHOP
+
+File:
+project-04-coffee-sales-01.png
+
+Use for:
+- Project 4 main preview
+- Project 4 case study visual
+
+Project:
+Coffee Shop Sales Analysis
+
+Alt text:
+"Coffee Shop Sales analysis using PostgreSQL and SQL"
+
+
+6. PROJECT 5 — WORKER PRODUCTIVITY
+
+File:
+project-05-worker-productivity-01.png
+
+Use for:
+- Project 5 main preview
+- Project 5 case study visual
+
+Project:
+Worker Productivity Prediction
+
+Alt text:
+"Worker Productivity predictive modeling analysis using Python"
+
+
+IMAGE RULES:
+
+- Preserve original aspect ratio.
+- Do not stretch images.
+- Do not crop important dashboard information.
+- For dashboard screenshots, prefer object-fit: contain.
+- Keep the existing image container dimensions.
+- Keep existing border radius.
+- Keep existing spacing.
+- Do not add decorative effects.
+- Do not create fake visualizations.
+- Do not create a new gallery or carousel unless the existing template already has one.
+
+RESPONSIVE:
+
+Make sure all images work correctly on:
+- Desktop
+- Tablet
+- Mobile
+
+They must not overflow or create horizontal scrolling.
+
+FINAL CHECK:
+
+Verify that:
+
+profile-photo.jpg
+→ Hero
+
+project-01-customer-dynamics-01.png
+→ Customer Dynamics
+
+project-02-car-sales-01.png
+→ Car Sales main preview
+
+project-02-car-sales-02.png
+→ Car Sales case study only
+
+project-03-orders-report-01.png
+→ Orders Report
+
+project-04-coffee-sales-01.png
+→ Coffee Shop
+
+project-05-worker-productivity-01.png
+→ Worker Productivity
+
+Do not make any unnecessary design changes.
+
+After completing the task, briefly tell me:
+1. Which assets were connected successfully.
+2. Whether any file could not be found.
+3. Whether any existing image placeholder was missing.

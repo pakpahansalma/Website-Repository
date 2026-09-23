@@ -1,0 +1,1285 @@
+## PHASE 2 — REBUILD VISUAL TEMPLATE BASED ON NEW CANVA REFERENCE
+
+The current project is a personal portfolio website for a Data Analyst.
+
+I am replacing the previous visual template with a new interactive visual direction based on a Canva reference titled:
+
+“Red and Black Modern Creative Portfolio Presentation”
+
+IMPORTANT:
+
+This is NOT a request to simply create a static Canva presentation.
+
+I need a real, responsive, interactive WEBSITE that captures the visual character of the Canva reference.
+
+### 1. WHAT YOU SHOULD DO
+
+Rebuild the existing portfolio's visual presentation based on the design specification below.
+
+You MAY change:
+
+* visual design
+* colors
+* typography
+* spacing
+* layout
+* section composition
+* project card presentation
+* animations
+* hover interactions
+* navigation behavior
+
+You MUST preserve:
+
+* the purpose of the website as a Data Analyst portfolio
+* the existing project/content structure
+* the five portfolio projects
+* existing personal-data placeholders
+* existing project image files
+* responsive behavior
+* accessibility
+* case-study functionality
+
+Do NOT invent personal information or project results.
+
+Do NOT turn this into a generic creative-designer portfolio.
+
+The final website should look like a sophisticated Data Analyst portfolio using a bold editorial visual language.
+
+---
+
+# 2. NEW VISUAL DIRECTION
+
+Design language:
+
+* modern
+* editorial
+* bold
+* sophisticated
+* high contrast
+* dark background
+* red accent
+* large typography
+* controlled asymmetry
+* generous whitespace
+* strong visual hierarchy
+* professional
+* data-driven
+* contemporary
+
+The visual direction should feel inspired by a premium creative portfolio, but the content and information architecture must clearly communicate:
+
+DATA ANALYST / DATA SCIENCE / BUSINESS INTELLIGENCE
+
+Avoid:
+
+* cyberpunk
+* gaming UI
+* neon overload
+* excessive gradients
+* excessive glassmorphism
+* 3D decorations
+* generic dashboard UI
+* excessive rounded cards
+* excessive icons
+* decorative elements that have no purpose
+
+The website should feel like a premium personal portfolio, not a SaaS dashboard.
+
+---
+
+# 3. COLOR SYSTEM
+
+Use these CSS variables:
+
+--color-black: #0A0A0A
+--color-black-soft: #121212
+--color-black-elevated: #1B1B1B
+
+--color-red: #D7192E
+--color-red-bright: #F02A3F
+--color-red-dark: #A80F20
+
+--color-white: #F7F5F0
+--color-white-pure: #FFFFFF
+
+--color-gray: #A8A8A8
+--color-gray-dark: #707070
+
+--color-border: rgba(247, 245, 240, 0.18)
+--color-border-red: rgba(215, 25, 46, 0.65)
+
+--color-focus: #FF5968
+
+Use red intentionally.
+
+Red should primarily be used for:
+
+* CTA
+* active navigation
+* project category
+* section numbers
+* important labels
+* decorative lines
+* hover states
+* visual highlights
+
+Do not make the entire interface red.
+
+---
+
+# 4. TYPOGRAPHY
+
+Use a clean modern sans-serif.
+
+Preferred:
+
+Inter
+Manrope
+DM Sans
+Plus Jakarta Sans
+
+If the existing implementation already uses a suitable readable sans-serif font, keep it unless changing it significantly improves the new visual direction.
+
+Typography should be bold and editorial.
+
+Hero title:
+
+clamp(3rem, 8vw, 7rem)
+
+Section title:
+
+clamp(2.25rem, 5vw, 4.5rem)
+
+Project title:
+
+28–42px desktop
+
+Body:
+
+16–18px
+
+Metadata:
+
+11–13px
+
+Hero heading:
+
+700–800 weight
+
+Body:
+
+400
+
+Navigation:
+
+500
+
+Buttons:
+
+600
+
+Use slightly negative letter spacing for large headings.
+
+Do NOT use decorative fonts that reduce readability.
+
+---
+
+# 5. LAYOUT
+
+Maximum content width:
+
+1200px
+
+Desktop:
+
+* 12-column grid
+* generous whitespace
+* asymmetric composition where appropriate
+
+Tablet:
+
+* 8-column grid
+
+Mobile:
+
+* single-column content flow
+
+Horizontal padding:
+
+Desktop:
+48–80px
+
+Tablet:
+32–40px
+
+Mobile:
+20–24px
+
+Do not use excessive rounded corners.
+
+Recommended:
+
+Images:
+0–4px radius
+
+Cards:
+0–8px radius
+
+Buttons:
+0–2px radius
+
+Inputs:
+2–4px radius
+
+The visual language should be editorial rather than soft/corporate.
+
+---
+
+# 6. NAVIGATION
+
+Create a sticky navigation.
+
+Desktop:
+
+[LOGO / NAME]
+
+Home
+About
+Skills
+Experience
+Projects
+Contact
+
+CTA:
+
+[CONTACT CTA]
+
+Initial state:
+
+* transparent/dark background
+
+After scrolling:
+
+* semi-transparent #0A0A0A
+* backdrop blur
+* subtle bottom border
+* slightly reduced height
+
+Navigation hover:
+
+* text changes to red
+* red underline animates from left to right
+
+Active section:
+
+* red text
+* small red underline
+
+Mobile:
+
+* hamburger menu
+* dark full-screen or large overlay menu
+* large navigation typography
+* Escape closes menu
+* selecting a menu item closes the menu
+* keyboard accessible
+
+---
+
+# 7. HERO
+
+Create a strong first impression.
+
+Desktop layout:
+
+LEFT:
+
+* small label
+* greeting
+* NAME
+* JOB TITLE
+* short ABOUT ME
+* CTA buttons
+
+RIGHT:
+
+* profile image
+
+Use the existing profile image asset if available.
+
+Do not make the profile photo tiny.
+
+The hero should feel spacious and editorial.
+
+Example structure:
+
+DATA ANALYST PORTFOLIO
+
+[GREETING]
+
+[NAMA]
+
+[JOB TITLE]
+
+[ABOUT ME]
+
+[VIEW PROJECTS] [CONTACT]
+
+Profile image:
+profile-photo.jpg
+
+If the image does not exist or is invalid, use the existing placeholder.
+
+Do not fabricate a replacement portrait.
+
+---
+
+# 8. ABOUT
+
+Section:
+
+About Me
+
+Use existing placeholders/content.
+
+Do not invent:
+
+* years of experience
+* project count
+* achievements
+* statistics
+
+Use editorial typography.
+
+Possible layout:
+
+large heading on one side
+
+description on the other
+
+Supporting metadata beneath.
+
+---
+
+# 9. SKILLS
+
+Create a visually clean editorial skills section.
+
+Categories:
+
+Analytics
+Technical
+Visualization
+Business
+
+Use:
+
+SQL
+Python
+Excel
+Power Query
+Pandas
+Power BI
+Looker Studio
+Tableau
+Data Cleaning
+EDA
+Statistical Analysis
+Business Insights
+Dashboard Design
+Reporting
+Problem Solving
+Recommendations
+
+Do NOT use fake percentage skill bars.
+
+Use text lists, compact labels, or editorial grid.
+
+On hover:
+
+* skill text may turn red
+* thin red line may appear
+* subtle movement is acceptable
+
+---
+
+# 10. EXPERIENCE
+
+Create an editorial timeline.
+
+Use the existing experience information.
+
+Important:
+
+Do NOT invent employment information.
+
+For existing experience:
+
+Data Scientist
+PT Cerdas Digital Nusantara
+Sep 2024 – Dec 2024
+
+Do not incorrectly label training/apprenticeship unless the supplied content explicitly confirms that wording.
+
+For other experience:
+
+Use existing placeholders if information is not available.
+
+---
+
+# 11. PROJECT PORTFOLIO
+
+This is one of the most important sections.
+
+The portfolio contains FIVE projects.
+
+Do NOT reduce the portfolio to only three projects.
+
+Featured project presentation may highlight three projects visually, but all five must remain accessible.
+
+Projects:
+
+01 — Customer Dynamics Analysis & Dashboard
+Tool: Microsoft Excel / Power Query
+Year: 2026
+
+02 — Car Sales Dashboard
+Tool: Power BI
+Year: 2025
+
+03 — Orders Report
+Tool: Looker Studio
+Year: 2025
+
+04 — Coffee Shop Sales Analysis
+Tool: SQL / PostgreSQL
+
+05 — Worker Productivity Predictive Model
+Tool: Python
+
+Use the uploaded image assets:
+
+project-01-customer-dynamics-01.png
+
+project-02-car-sales-01.png
+project-02-car-sales-02.png
+
+project-03-orders-report-01.png
+
+project-04-coffee-sales-01.png
+
+project-05-worker-productivity-01.png
+
+IMPORTANT:
+
+Project 2 has TWO images.
+
+The project detail page/case study should support multiple images.
+
+Do not delete or ignore the second image.
+
+---
+
+# 12. PROJECT CARD DESIGN
+
+Project images should be visually dominant.
+
+Each card should contain:
+
+project number
+
+category/tool
+
+year
+
+project title
+
+short description
+
+image
+
+View Case Study
+
+Avoid making the cards look like ordinary SaaS cards.
+
+Use editorial composition.
+
+Possible layout:
+
+01
+EXCEL / POWER QUERY
+2026
+
+CUSTOMER DYNAMICS
+ANALYSIS & DASHBOARD
+
+[IMAGE]
+
+Short description
+
+View Case Study →
+
+---
+
+# 13. PROJECT INTERACTION
+
+This website MUST feel interactive.
+
+Implement:
+
+### Project image hover
+
+On desktop:
+
+* image scale approximately 1.03
+* subtle dark/red overlay
+* CTA moves slightly
+* title shifts 4–8px
+* border can transition to red
+
+Duration:
+
+220–300ms
+
+Use smooth easing.
+
+### Project card hover
+
+Card should feel responsive but restrained.
+
+Do NOT use huge scaling.
+
+### Project click
+
+Clicking a project should open its case study.
+
+Prefer:
+
+/projects/project-slug
+
+rather than a large modal for long case studies.
+
+Each case study should have:
+
+Back to Projects
+
+Project number
+
+Project title
+
+Project category
+
+Year
+
+Project role/context
+
+Hero image
+
+Project overview
+
+Business problem
+
+Process
+
+Key findings
+
+Analytical value
+
+Additional visuals
+
+Tools
+
+Links if available
+
+---
+
+# 14. IMPORTANT ANALYTICAL POSITIONING
+
+The portfolio should NOT overclaim business impact.
+
+As a Data Analyst, the website should emphasize:
+
+DATA → ANALYSIS → INSIGHT → DECISION SUPPORT
+
+Do not automatically turn every insight into:
+
+“increase revenue”
+
+“improve retention”
+
+“increase profit”
+
+unless the evidence actually supports that conclusion.
+
+For example:
+
+Instead of:
+
+“47% of customers were active for only one year, so the company should improve customer loyalty.”
+
+Use:
+
+“47% of customers were active for only one year, indicating a pattern of relatively short customer activity. This suggests an area for further investigation into repeat-purchase behavior, customer characteristics, and demand patterns.”
+
+The website should distinguish between:
+
+OBSERVATION
+What the data shows.
+
+INSIGHT
+What the pattern may indicate.
+
+NEXT QUESTION
+What should be investigated further.
+
+Do NOT present assumptions as facts.
+
+---
+
+# 15. PROJECT 01
+
+Title:
+
+Customer Dynamics Analysis & Dashboard
+
+Tool:
+
+Microsoft Excel
+Power Query
+Pivot Table
+Slicer
+
+Year:
+
+2026
+
+Context:
+
+This project was developed during an internship as a Market Intelligence Analyst at PT Bakrie Pipe Industries.
+
+IMPORTANT:
+
+The portfolio uses dummy data with the same analytical structure.
+
+Do NOT state that the displayed results represent PT Bakrie Pipe Industries.
+
+Do not expose confidential company data.
+
+Position this project as:
+
+“An Excel-based business intelligence project using a dummy dataset structured to replicate the analytical framework used during an internship project.”
+
+Process:
+
+Raw Data
+→ Cleaning
+→ Validation
+→ Customer Master
+→ KPI Analysis
+→ Dashboard
+
+Key findings:
+
+47% retention
+
+30% dormant customers
+
+47% of customers were active for only one year
+
+Analytical interpretation:
+
+* 47% retention indicates that less than half of customers continued into the defined retention period.
+* 30% dormant customers indicates a meaningful group of previously active customers who are no longer active under the project's definition.
+* 47% of customers being active for only one year indicates a pattern of relatively short customer activity.
+
+Do NOT automatically claim that this proves poor loyalty.
+
+Instead:
+
+“Further analysis would be needed to determine whether this pattern reflects low repeat demand, project-based purchasing behavior, customer characteristics, or other factors.”
+
+Business value:
+
+* customer segmentation
+* customer activity monitoring
+* identification of dormant customers
+* retention analysis
+* centralized dashboard reporting
+* decision support
+
+---
+
+# 16. PROJECT 02
+
+Title:
+
+Car Sales Dashboard
+
+Tool:
+
+Power BI
+DAX
+Filters
+Slicers
+
+Year:
+
+2025
+
+Context:
+
+Independent project.
+
+Objective:
+
+Understand sales performance, customer segments, and regional trends to support data-driven decision-making.
+
+Process:
+
+* cleaned and structured raw sales data
+* built KPI metrics
+* developed interactive Power BI dashboard
+* used DAX, filters, and slicers
+
+Key findings:
+
+$371M YTD Sales
++23.6%
+
++19.7% unit growth
+
+SUVs were the main revenue driver
+
+Top brands:
+Chevrolet
+Ford
+Dodge
+
+Top regions:
+Austin
+Janesville
+
+Opportunity:
+Aurora
+
+Business value:
+
+* sales performance visibility
+* segment comparison
+* regional comparison
+* identification of high-performing areas
+* identification of areas requiring further investigation
+
+Do not claim causality unless supported by the analysis.
+
+Use both uploaded images:
+
+project-02-car-sales-01.png
+project-02-car-sales-02.png
+
+---
+
+# 17. PROJECT 03
+
+Title:
+
+Orders Report
+
+Tool:
+
+Looker Studio
+Google Sheets
+
+Year:
+
+2025
+
+Context:
+
+Independent project.
+
+Objective:
+
+Build an interactive dashboard to monitor order distribution and sales performance across regions, categories, and customer segments.
+
+Process:
+
+* cleaned and structured sales dataset
+* built interactive dashboard
+* used filters and trend charts
+* visualized performance by region, category, and customer segment
+
+Key findings:
+
+9,994 orders
+
+793 customers
+
+49 states
+
+Top categories:
+Technology
+Office Supplies
+
+Customer mix:
+Consumer = 51.9%
+
+Top cities:
+New York City
+Los Angeles
+
+Trend:
+consistent growth from 2014–2017
+
+Peak:
+Q4
+
+Business value:
+
+* visibility into sales distribution
+* identification of high-performing segments
+* regional comparison
+* trend monitoring
+* interactive reporting
+
+Image:
+
+project-03-orders-report-01.png
+
+---
+
+# 18. PROJECT 04
+
+Title:
+
+Coffee Shop Sales Analysis
+
+Tool:
+
+SQL
+PostgreSQL
+
+Context:
+
+Project completed as part of training at PT Cerdas Digital Nusantara.
+
+Do NOT automatically call this an apprenticeship.
+
+Unless verified, describe it as:
+
+“Training project completed during a data-focused program at PT Cerdas Digital Nusantara.”
+
+Objective:
+
+Analyze transaction data to identify sales trends, customer behavior, and revenue drivers.
+
+Process:
+
+* cleaned dataset
+* queried data using PostgreSQL
+* analyzed sales by date
+* analyzed products
+* analyzed day of week
+* used SUM, COUNT, AVG and aggregation
+
+Key findings:
+
+Revenue spikes occurred on specific days.
+
+Busiest days:
+Monday
+Friday
+
+Top product:
+Sustainably Grown Organic Lg
+
+Revenue:
+$21K+
+
+Premium and branded products generated higher revenue.
+
+Analytical value:
+
+* identified temporal sales patterns
+* identified high-performing products
+* compared product performance
+* provided evidence for further staffing, promotion, and inventory analysis
+
+Do NOT claim that these findings directly increased revenue.
+
+Image:
+
+project-04-coffee-sales-01.png
+
+---
+
+# 19. PROJECT 05
+
+Title:
+
+Worker Productivity Predictive Model
+
+Tool:
+
+Python
+
+Context:
+
+Project completed during training at PT Cerdas Digital Nusantara.
+
+Do NOT automatically call this an apprenticeship unless formally verified.
+
+Objective:
+
+Identify the most accurate model for predicting worker productivity and understand key performance drivers.
+
+Process:
+
+* prepared and cleaned dataset
+* handled missing values
+* examined outliers
+* built multiple models:
+
+  * Linear Regression
+  * KNN
+  * Decision Tree
+  * Random Forest
+  * SVM
+  * MLP
+* evaluated models using RMSE and SMAPE
+* applied cross-validation
+* performed hyperparameter tuning
+
+Key findings:
+
+Random Forest achieved:
+
+RMSE = 0.1035
+
+SMAPE = 9.79%
+
+Random Forest performed best among the evaluated models.
+
+KNN and Decision Tree showed moderate performance with relatively interpretable results.
+
+SVM and MLP performed reasonably but required additional computational tuning.
+
+Linear Regression was used as a baseline and indicated that the relationship in the dataset was not well represented by a simple linear model.
+
+Analytical value:
+
+* compared multiple predictive approaches
+* established a baseline model
+* evaluated model performance objectively
+* identified Random Forest as the strongest model among those tested
+* demonstrated an end-to-end predictive analytics workflow
+
+IMPORTANT:
+
+Do NOT use the old Business Impact text from Project 04.
+
+Do NOT claim that the model automatically improved worker productivity.
+
+Do NOT claim operational impact that was not measured.
+
+Image:
+
+project-05-worker-productivity-01.png
+
+---
+
+# 20. CASE STUDY DESIGN
+
+Case studies should feel like editorial analytical reports.
+
+Use:
+
+large project title
+
+large project image
+
+small metadata
+
+short overview
+
+analytical sections
+
+key findings
+
+charts/images
+
+conclusion
+
+next analytical questions
+
+Recommended structure:
+
+01 Overview
+
+02 Business Problem
+
+03 Data Context
+
+04 Analytical Objective
+
+05 Data Preparation
+
+06 Analysis / Modeling
+
+07 Key Findings
+
+08 Interpretation
+
+09 Analytical Value
+
+10 Next Questions
+
+11 Tools
+
+12 Links
+
+This structure is preferred over an exaggerated “Business Impact” section.
+
+---
+
+# 21. INTERACTIVE CASE STUDY ELEMENTS
+
+Implement subtle interactions:
+
+* scroll reveal
+* section fade-up
+* project image reveal
+* hover states
+* animated underline
+* button transitions
+* page transitions
+* image hover zoom
+* navigation active state
+
+Respect:
+
+prefers-reduced-motion
+
+If reduced motion is enabled:
+
+* disable major movement
+* minimize transitions
+* keep content immediately readable
+
+---
+
+# 22. SCROLL REVEAL
+
+Sections should animate into view.
+
+Recommended:
+
+opacity:
+0 → 1
+
+transform:
+
+translateY(20px) → translateY(0)
+
+Duration:
+
+500–700ms
+
+Use IntersectionObserver or an equivalent lightweight implementation.
+
+Do NOT animate every individual text character.
+
+Do NOT create distracting animations.
+
+---
+
+# 23. HERO INTERACTION
+
+The hero may contain subtle movement.
+
+Allowed:
+
+* slight image reveal
+* red accent movement
+* subtle parallax-like movement
+
+But keep it restrained.
+
+Do NOT make the hero look like a gaming website.
+
+---
+
+# 24. PROJECT IMAGE BEHAVIOR
+
+Images must preserve their aspect ratio.
+
+Use:
+
+object-fit: cover
+
+when appropriate.
+
+Do not distort images.
+
+Project 2 supports multiple images.
+
+If multiple images are displayed in the case study:
+
+* use a clean editorial image stack/grid
+* no automatic carousel unless necessary
+* allow users to view each image clearly
+
+---
+
+# 25. RESPONSIVE DESIGN
+
+Desktop:
+
+* editorial two-column layouts
+* large typography
+* large project imagery
+* asymmetrical composition where appropriate
+
+Tablet:
+
+* reduced typography
+* two-column where practical
+
+Mobile:
+
+* one-column
+* hero text first
+* image below
+* navigation becomes hamburger
+* cards become full-width
+* no horizontal scrolling
+* buttons stack if necessary
+* images remain readable
+* case studies become vertical
+
+Never allow text or images to overflow horizontally.
+
+---
+
+# 26. ACCESSIBILITY
+
+Maintain:
+
+* semantic HTML
+* proper heading hierarchy
+* alt text
+* keyboard navigation
+* visible focus states
+* accessible buttons
+* accessible navigation
+* accessible mobile menu
+* sufficient contrast
+* reduced motion support
+
+Do not rely on color alone to communicate meaning.
+
+---
+
+# 27. IMPORTANT IMPLEMENTATION RULE
+
+Before making changes:
+
+1. Inspect the current project structure.
+2. Identify the framework being used.
+3. Identify the current routing structure.
+4. Identify where project data is stored.
+5. Identify the current image assets.
+6. Identify whether the current website already has reusable components.
+
+Then implement the new design using the existing architecture where practical.
+
+Do NOT unnecessarily rewrite the entire application if the existing structure can support the redesign.
+
+However, if the current visual implementation conflicts strongly with this specification, prioritize this new visual specification.
+
+---
+
+# 28. IMAGE ASSETS
+
+Use the actual uploaded assets.
+
+Profile:
+
+profile-photo.jpg
+
+Project 01:
+
+project-01-customer-dynamics-01.png
+
+Project 02:
+
+project-02-car-sales-01.png
+project-02-car-sales-02.png
+
+Project 03:
+
+project-03-orders-report-01.png
+
+Project 04:
+
+project-04-coffee-sales-01.png
+
+Project 05:
+
+project-05-worker-productivity-01.png
+
+Do not generate fake dashboard screenshots.
+
+Do not replace real project images with generic stock images.
+
+---
+
+# 29. FINAL QUALITY CHECK
+
+After implementation, test:
+
+Desktop
+Tablet
+Mobile
+
+Check:
+
+* navigation
+* sticky header
+* hover states
+* scroll animations
+* project cards
+* case study navigation
+* project images
+* multiple images for Project 02
+* responsive layout
+* typography
+* contrast
+* accessibility
+* no horizontal overflow
+* no broken links
+* no missing images
+* no placeholder accidentally hidden or malformed
+
+Most importantly:
+
+The result should immediately communicate:
+
+“I am a Data Analyst who can turn data into structured insights.”
+
+It should NOT communicate:
+
+“I am a graphic designer showing random visual projects.”
+
+The visual language can be bold and creative, but the content hierarchy must remain analytical, credible, and professional.
+
+DO NOT add unsupported achievements.
+
+DO NOT fabricate data.
+
+DO NOT fabricate business outcomes.
+
+DO NOT change numerical findings.
+
+Implement the website and then report what was changed and any issues that still require manual input.
